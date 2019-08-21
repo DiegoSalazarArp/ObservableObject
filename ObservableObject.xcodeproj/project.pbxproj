@@ -13,6 +13,7 @@
 		C793D48623050DFE00B2C16E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C793D48523050DFE00B2C16E /* Assets.xcassets */; };
 		C793D48923050DFE00B2C16E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C793D48823050DFE00B2C16E /* Preview Assets.xcassets */; };
 		C793D48C23050DFE00B2C16E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C793D48A23050DFE00B2C16E /* LaunchScreen.storyboard */; };
+		C793D49523050E2A00B2C16E /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793D49423050E2A00B2C16E /* FancyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C793D48823050DFE00B2C16E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C793D48B23050DFE00B2C16E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C793D48D23050DFE00B2C16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C793D49423050E2A00B2C16E /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C793D47E23050DFB00B2C16E /* ObservableObject */ = {
 			isa = PBXGroup;
 			children = (
+				C793D49323050E1300B2C16E /* Models */,
 				C793D47F23050DFB00B2C16E /* AppDelegate.swift */,
 				C793D48123050DFB00B2C16E /* SceneDelegate.swift */,
 				C793D48323050DFB00B2C16E /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				C793D48823050DFE00B2C16E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C793D49323050E1300B2C16E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C793D49423050E2A00B2C16E /* FancyTimer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C793D48023050DFB00B2C16E /* AppDelegate.swift in Sources */,
+				C793D49523050E2A00B2C16E /* FancyTimer.swift in Sources */,
 				C793D48223050DFB00B2C16E /* SceneDelegate.swift in Sources */,
 				C793D48423050DFB00B2C16E /* ContentView.swift in Sources */,
 			);
